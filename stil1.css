@@ -1,0 +1,119 @@
+@charset "utf-8";
+#mainHeader {
+position: fixed;
+width: 100%;
+overflow: hidden;
+border: 1px;
+}
+#header1 {
+	margin-top:50px;
+}
+body{
+  margin-top:-30px;
+  color:#666;
+  background:#888;
+  font-family:Rockwell;
+  font-size:20px;
+}
+h2,h3{
+  color:#888;
+  font-weight:bold;
+  text-align:center;
+  text-transform:uppercase;
+}
+a{
+  color:#722872;
+}
+
+nav{
+  font-size:13px;
+  background:purple;
+}
+@media(max-width:768px){
+  nav{padding:5px;text-align:center;margin:0 auto;width:120%;
+  }
+  nav .active a{color:#722872;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+.nav>li{height:100%;text-transform:uppercase;font-weight:bold;letter-spacing:2px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;
+}
+.nav>li a{color:#ffffff;padding:10px 20px;
+}
+.nav>li a:hover{color:#722872;background:#bbb;box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 2);
+}
+.navbar-toggle{margin-right:0;
+}
+hr.star-bright, hr.star-dark{margin:40px auto 30px;padding:0;max-width:512px;border:0;border-top:solid 5px;text-align:center;
+}
+@media(min-width:1023px){
+  header hr.star-bright, header hr.star-dark{margin-right:0;text-align:right;
+  }
+  header hr.star-bright:after, header hr.star-dark:after{right:-10px;
+  }
+}
+hr.star-bright:after, hr.star-dark:after{content:'\f121';font-family:FontAwesome;display:inline-block;position:relative;top:-.8em;padding:0 .25em;font-size:2em;
+}
+hr.star-bright{border-color:#fff;
+}
+hr.star-bright:after{color:#fff;background-color:#aaa;
+}
+hr.star-dark{border-color:#888;
+}
+hr.star-dark:after{color:#888;background-color:#eee;
+}
+.imgContainer {
+	float:left;
+	padding-left:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#form1 {
+	font-size:30px;
+	font-family:"Comic Sans MS", cursive;
+	color:#900;
+}
+
+#message {
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	color:black;
+}
+
+#stil {
+	font-size:20px;
+	font-family:"MS Serif", "New York", serif;
+	color:#000;
+}
+#stanga {
+	float:left;
+	width:400px;
+}
+#dreapta {
+	margin-top:100px;
+	padding-top:40px;
+	float:right;
+	width:300px;
+}
+#fb {
+	color:blue;
+}
+#fcc {
+	color:green;
+}
+#git {
+	color:purple;
+}
+#pend {
+	text-shadow:1.3px 1.3px #999999;
+	color:#03C;
+}
+#contbot {
+	margin-left:300px;
+}
+#editimg {
+	margin:20px 10px 10px 10px;
+}
+#copyright {
+	color:#FFF;
+	font-size: small;
+}
